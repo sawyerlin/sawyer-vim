@@ -83,8 +83,9 @@ Plugin 'scrooloose/syntastic'
 call vundle#end()
 
 " Map keys
-map <C-n> :NERDTreeToggle<CR>
-map <C-p> :CtrlP<CR>
-
-nnoremap (b :bp<CR>
-nnoremap )b :bn<CR>
+nnoremap <C-n> :NERDTreeToggle<CR>
+nnoremap <C-p> :CtrlP<CR>
+nnoremap <C-h> :bp<CR>
+nnoremap <C-l> :bn<CR>
+nnoremap f :! find . -type f \| grep -rnw 
+command Grma ! git ls-files --deleted \| sed 's/\(.*\)/"\1"/'\| xargs git rm<CR>
