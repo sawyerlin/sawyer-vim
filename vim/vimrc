@@ -58,9 +58,13 @@ let g:solarized_contrast="high"
 " let g:solarized_termtrans=1
 colorscheme solarized 
 
+" Airline Configuration "
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
 let g:airline_section_y='BN: %{bufnr("%")}'
+
+" Ctrl P Configuration "
+let g:ctrlp_show_hidden=1
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
