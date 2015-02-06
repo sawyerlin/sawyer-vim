@@ -42,11 +42,35 @@ set matchtime=3
 " Change Leader Key "
 let mapleader=","
 
+" Set title to window
+set title 
+
 " Dictionary Path "
 set dictionary="/usr/share/dict/words"
 
 " Enable mouse "
 set mouse=a
+
+"Settings for Searching and Moving
+nnoremap / /\v
+vnoremap / /\v
+set ignorecase
+set smartcase
+set gdefault
+set incsearch
+set showmatch
+set hlsearch
+nnoremap <leader><space> :noh<cr>
+nnoremap <tab> %
+vnoremap <tab> %
+
+" Make Vim to handle long lines nicely.
+set wrap
+set textwidth=79
+set formatoptions=qrn1
+
+" Map : to ; also in command mode.
+nnoremap ; :
 
 " Enable Solarized Theme "
 set t_Co=256
@@ -82,6 +106,7 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'scrooloose/syntastic'
 Plugin 'mileszs/ack.vim'
 Plugin 'airblade/vim-gitgutter'
+Plugin 'vim-scripts/Conque-Shell'
 call vundle#end()
 
 " Map keys
@@ -90,4 +115,7 @@ nnoremap <C-p> :CtrlP<CR>
 nnoremap <C-h> :bp<CR>
 nnoremap <C-l> :bn<CR>
 nnoremap f :! find . -type f \| grep -rnw 
-command Grma ! git ls-files --deleted \| sed 's/\(.*\)/"\1"/'\| xargs git rm<CR>
+inoremap jj <ESC>
+" if !exists(':Grma')
+    command Grma :! git ls-files --deleted | sed 's/\(.*\)/"\1"/' | xargs git rm
+" endif
