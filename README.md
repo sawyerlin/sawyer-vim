@@ -15,3 +15,6 @@
 
 * configuration ack
 sudo apt-get install ack-grep
+
+![Image of Screen1]
+(https://github.com/sawyerlin/sawyer-vim/blob/master/images/screen1.png)
