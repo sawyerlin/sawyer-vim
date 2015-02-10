@@ -114,7 +114,7 @@ nnoremap <C-n> :NERDTreeToggle<CR>
 nnoremap <C-p> :CtrlP<CR>
 nnoremap <C-h> :bp<CR>
 nnoremap <C-l> :bn<CR>
-nnoremap f :! find . -type f \| grep -rnw 
+nnoremap f :Ack 
 inoremap jj <ESC>
 " if !exists(':Grma')
     command Grma :! git ls-files --deleted | sed 's/\(.*\)/"\1"/' | xargs git rm
