@@ -7,10 +7,11 @@
 * vim-colors-solarized
 * vim-fugitive
 * vim-surround
-* vim-javascript
+* vim-javascript-syntax
 * syntastic
 * ack
 * vim-gitgutter
+* vim-qml
 
 
 * configuration ack
