@@ -91,11 +91,7 @@ let g:airline_section_y='BN: %{bufnr("%")}'
 let g:ctrlp_show_hidden=1
 
 " 
-<<<<<<< HEAD
 let g:gitgutter_max_signs=5000
-=======
-let g:gitgutter_max_signs=1000
->>>>>>> bd1360bd44e513fecc10f6c9f3504107d72dfe42
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
