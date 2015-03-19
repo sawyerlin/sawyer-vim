@@ -90,7 +90,7 @@ let g:airline_section_y='BN: %{bufnr("%")}'
 " Ctrl P Configuration "
 let g:ctrlp_show_hidden=1
 
-" 
+" gitgutter 
 let g:gitgutter_max_signs=5000
 
 " set the runtime path to include Vundle and initialize
@@ -111,6 +111,7 @@ Plugin 'scrooloose/syntastic'
 Plugin 'mileszs/ack.vim'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'vim-scripts/Conque-Shell'
+Plugin 'Shutnik/jshint2.vim'
 call vundle#end()
 
 " Map keys

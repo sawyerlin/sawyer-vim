@@ -12,10 +12,14 @@
 * ack
 * vim-gitgutter
 * vim-qml
+* jshint2
 
 
 * configuration ack
 sudo apt-get install ack-grep
+
+* configuration jshint2
+sudo npm install -g jshint
 
 ![Image of Screen1]
 (https://github.com/sawyerlin/sawyer-vim/blob/master/images/screen1.png)
