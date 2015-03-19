@@ -93,6 +93,12 @@ let g:ctrlp_show_hidden=1
 " gitgutter 
 let g:gitgutter_max_signs=5000
 
+" jshint2
+let jshint2_read = 1
+let jshint2_save = 1
+let jshint2_close = 0
+let jshint2_confirm = 0
+
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
