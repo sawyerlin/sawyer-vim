@@ -1,3 +1,4 @@
+# Plugins
 * Vundle
 * command-t
 * ctrlp
@@ -13,12 +14,15 @@
 * vim-gitgutter
 * vim-qml
 * jshint2
+* suan/vim-instant-markdown (really nice plugin)
 
+# Configurations
 * configuration ack
-- sudo apt-get install ack-grep
+    - sudo apt-get install ack-grep
 
 * configuration jshint2
-- sudo npm install -g jshint
+    - sudo npm install -g jshint
 
+# Screenshots
 ![Image of Screen1]
 (https://github.com/sawyerlin/sawyer-vim/blob/master/images/screen1.png)

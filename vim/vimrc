@@ -99,13 +99,16 @@ let jshint2_save = 1
 let jshint2_close = 0
 let jshint2_confirm = 0
 
+" instant markdown "
+let g:instant_markdown_slow = 1
+" let g:instant_markdown_autostart = 0
+
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 Plugin 'git://git.wincent.com/command-t'
 Plugin 'kien/ctrlp.vim'
-Plugin 'plasticboy/vim-markdown'
 Plugin 'bling/vim-airline'
 Plugin 'scrooloose/nerdtree'
 Plugin 'altercation/vim-colors-solarized'
@@ -118,6 +121,7 @@ Plugin 'mileszs/ack.vim'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'vim-scripts/Conque-Shell'
 Plugin 'Shutnik/jshint2.vim'
+Plugin 'suan/vim-instant-markdown'
 call vundle#end()
 
 " Map keys
