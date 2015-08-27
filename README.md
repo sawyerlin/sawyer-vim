@@ -15,6 +15,7 @@
 * vim-qml
 * jshint2
 * suan/vim-instant-markdown (really nice plugin)
+* elzr/vim-json
 
 # Configurations
 * configuration ack

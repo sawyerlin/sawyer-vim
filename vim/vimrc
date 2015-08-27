@@ -1,7 +1,7 @@
 filetype plugin indent on
 
 " Syntax highlight "
-syntax on 
+syntax on
 
 " Make vim incompatible to vi "
 set nocompatible
@@ -38,6 +38,8 @@ set norelativenumber
 set shell=/bin/bash
 set lazyredraw
 set matchtime=3
+
+set encoding=utf-8
 
 " Change Leader Key "
 let mapleader=","
@@ -101,7 +103,7 @@ let jshint2_confirm = 0
 
 " instant markdown "
 let g:instant_markdown_slow = 1
-" let g:instant_markdown_autostart = 0
+let g:instant_markdown_autostart = 0
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -122,6 +124,7 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'vim-scripts/Conque-Shell'
 Plugin 'Shutnik/jshint2.vim'
 Plugin 'suan/vim-instant-markdown'
+Plugin 'elzr/vim-json'
 call vundle#end()
 
 " Map keys
