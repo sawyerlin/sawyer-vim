@@ -1,4 +1,5 @@
 filetype plugin indent on
+filetype plugin on
 
 " Syntax highlight "
 syntax on
@@ -126,6 +127,7 @@ Plugin 'Shutnik/jshint2.vim'
 Plugin 'suan/vim-instant-markdown'
 Plugin 'elzr/vim-json'
 Plugin 'ivalkeen/nerdtree-execute'
+Plugin 'scrooloose/nerdcommenter'
 call vundle#end()
 
 " Map keys

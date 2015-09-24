@@ -19,6 +19,8 @@
 * ivalkeen/nerdtree-execute 
     * press 'm' key on a file in nerdtree and then press 'x' key to open it in
     another program
+* scrooloose/nerdcommenter
+    * [usage](https://github.com/scrooloose/nerdcommenter#usage)
 
 # Configurations
 * configuration ack
