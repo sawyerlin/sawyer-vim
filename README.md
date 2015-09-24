@@ -16,6 +16,9 @@
 * jshint2
 * suan/vim-instant-markdown (really nice plugin)
 * elzr/vim-json
+* ivalkeen/nerdtree-execute 
+    * press 'm' key on a file in nerdtree and then press 'x' key to open it in
+    another program
 
 # Configurations
 * configuration ack

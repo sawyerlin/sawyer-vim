@@ -93,7 +93,7 @@ let g:airline_section_y='BN: %{bufnr("%")}'
 let g:ctrlp_show_hidden=1
 
 " gitgutter 
-let g:gitgutter_max_signs=5000
+let g:gitgutter_max_signs=100000
 
 " jshint2
 let jshint2_read = 1
@@ -125,6 +125,7 @@ Plugin 'vim-scripts/Conque-Shell'
 Plugin 'Shutnik/jshint2.vim'
 Plugin 'suan/vim-instant-markdown'
 Plugin 'elzr/vim-json'
+Plugin 'ivalkeen/nerdtree-execute'
 call vundle#end()
 
 " Map keys
