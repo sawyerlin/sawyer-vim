@@ -1,3 +1,24 @@
+# Prerequest
+* configuration Powerline fonts
+    * git clone https://github.com/powerline/fonts.git
+    * cd fonts
+    * ./install.sh
+    * change the profile of terminal like the following image 
+        * ![Image of Screen0] 
+          (https://github.com/sawyerlin/sawyer-vim/blob/master/images/screen0.png)
+
+* configuration instant markdown 
+    * sudo apt-get install nodejs
+    * sudo apt-get install npm
+    * sudo ln -s /usr/bin/nodejs /usr/bin/node
+    * sudo npm -g install instant-markdown-d
+
+* configuration ack
+    - sudo apt-get install ack-grep
+
+* configuration jshint2
+    - sudo npm install -g jshint
+
 # Plugins
 * Vundle
 * command-t
@@ -21,13 +42,6 @@
     another program
 * scrooloose/nerdcommenter
     * [usage](https://github.com/scrooloose/nerdcommenter#usage)
-
-# Configurations
-* configuration ack
-    - sudo apt-get install ack-grep
-
-* configuration jshint2
-    - sudo npm install -g jshint
 
 # Screenshots
 ![Image of Screen1]
