@@ -2,8 +2,10 @@
 [![Build Status](https://travis-ci.org/dwyl/esta.svg?branch=master)](https://travis-ci.org/dwyl/esta)
 * Ubuntu 14.04 LTS
 * Vim 7.4
+
 # Installation
     ./install.sh
+    
 # Prerequest
 * install plugins
     - open vim
@@ -24,6 +26,7 @@
     - sudo apt-get install ack-grep
 * configuration jshint2
     - sudo npm install -g jshint
+
 # Plugins
 * Vundle
 * command-t
