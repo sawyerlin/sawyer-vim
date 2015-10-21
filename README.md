@@ -50,6 +50,7 @@
     another program
 * scrooloose/nerdcommenter
     * [usage](https://github.com/scrooloose/nerdcommenter#usage)
+
 # Screenshots
 ![Image of Screen1]
 (https://github.com/sawyerlin/sawyer-vim/blob/master/images/screen1.png)
