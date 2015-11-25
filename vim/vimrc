@@ -1,11 +1,7 @@
-filetype plugin indent on
-filetype plugin on
-
-" Syntax highlight "
-syntax on
+set nocompatible
+filetype off
 
 " Make vim incompatible to vi "
-set nocompatible
 set modelines=0
 
 " Tab settings "
@@ -128,8 +124,9 @@ Plugin 'suan/vim-instant-markdown'
 Plugin 'elzr/vim-json'
 Plugin 'ivalkeen/nerdtree-execute'
 Plugin 'scrooloose/nerdcommenter'
-Plugin 'docker/docker', {'rtp': '/contrib/syntax/vim/'}
+Plugin 'ekalinin/Dockerfile.vim'
 call vundle#end()
+filetype plugin indent on
 
 " Map keys
 nnoremap <C-n> :NERDTreeToggle<CR>
@@ -141,4 +138,3 @@ inoremap jj <ESC>
 " if !exists(':Grma')
     command Grma :! git ls-files --deleted | sed 's/\(.*\)/"\1"/' | xargs git rm
 " endif
-autocmd BufNewFile,BufRead *.md set filetype=markdown
