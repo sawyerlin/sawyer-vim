@@ -50,6 +50,7 @@
     another program
 * scrooloose/nerdcommenter
     * [usage](https://github.com/scrooloose/nerdcommenter#usage)
+* docker/docker
 
 # Screenshots
 ![Image of Screen1]
