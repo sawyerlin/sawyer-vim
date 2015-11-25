@@ -124,7 +124,7 @@ Plugin 'suan/vim-instant-markdown'
 Plugin 'elzr/vim-json'
 Plugin 'ivalkeen/nerdtree-execute'
 Plugin 'scrooloose/nerdcommenter'
-Plugin 'ekalinin/Dockerfile.vim'
+Plugin 'docker/docker', {'rtp': '/contrib/syntax/vim/'}
 call vundle#end()
 filetype plugin indent on
 
