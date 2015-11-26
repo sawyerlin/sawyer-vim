@@ -138,3 +138,4 @@ inoremap jj <ESC>
 " if !exists(':Grma')
     command Grma :! git ls-files --deleted | sed 's/\(.*\)/"\1"/' | xargs git rm
 " endif
+autocmd BufNewFile,BufRead *.md set filetype=markdown
