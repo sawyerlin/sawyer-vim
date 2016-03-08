@@ -125,6 +125,7 @@ Plugin 'elzr/vim-json'
 Plugin 'ivalkeen/nerdtree-execute'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'docker/docker', {'rtp': '/contrib/syntax/vim/'}
+Plugin 'majutsushi/tagbar'
 call vundle#end()
 filetype plugin indent on
 

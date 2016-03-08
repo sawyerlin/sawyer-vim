@@ -26,6 +26,8 @@
     - sudo apt-get install ack-grep
 * configuration jshint2
     - sudo npm install -g jshint
+* configuration tagbar
+    - sudo npm install -g jsctags
 
 # Plugins
 * Vundle
@@ -51,6 +53,7 @@
 * scrooloose/nerdcommenter
     * [usage](https://github.com/scrooloose/nerdcommenter#usage)
 * docker/docker
+* majutsushi/tagbar 
 
 # Screenshots
 ![Image of Screen1]
