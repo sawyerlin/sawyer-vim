@@ -28,6 +28,11 @@
     - sudo npm install -g jshint
 * configuration tagbar
     - sudo npm install -g jsctags
+    - use the command below to generate **tags** file for tagbar
+    ```bash
+    find . -type f -iregex .*\.js$ -not -path "./node_modules/*" -exec jsctags
+    {} -f \; | sed '/^$/d' | sort > tags
+    ```
 
 # Plugins
 * Vundle
