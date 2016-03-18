@@ -53,7 +53,7 @@
 * scrooloose/nerdcommenter
     * [usage](https://github.com/scrooloose/nerdcommenter#usage)
 * docker/docker
-* majutsushi/tagbar 
+* majutsushi/tagbar (Use **Ctrl + t** to open or close tagbar)
 
 # Screenshots
 ![Image of Screen1]

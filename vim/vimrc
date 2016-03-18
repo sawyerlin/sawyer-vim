@@ -132,6 +132,7 @@ filetype plugin indent on
 " Map keys
 nnoremap <C-n> :NERDTreeToggle<CR>
 nnoremap <C-p> :CtrlP<CR>
+nnoremap <C-t> :TagbarToggle<CR>
 nnoremap <C-h> :bp<CR>
 nnoremap <C-l> :bn<CR>
 nnoremap f :Ack 
