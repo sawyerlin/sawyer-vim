@@ -126,6 +126,7 @@ Plugin 'ivalkeen/nerdtree-execute'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'docker/docker', {'rtp': '/contrib/syntax/vim/'}
 Plugin 'majutsushi/tagbar'
+Plugin 'peterhoeg/vim-qml'
 call vundle#end()
 filetype plugin indent on
 
@@ -141,3 +142,6 @@ inoremap jj <ESC>
     command Grma :! git ls-files --deleted | sed 's/\(.*\)/"\1"/' | xargs git rm
 " endif
 autocmd BufNewFile,BufRead *.md set filetype=markdown
+autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
+
+
