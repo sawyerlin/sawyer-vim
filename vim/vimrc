@@ -102,6 +102,9 @@ let jshint2_confirm = 0
 let g:instant_markdown_slow = 1
 let g:instant_markdown_autostart = 0
 
+" nerdtree configuration "
+let NERDTreeShowHidden = 1
+
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
