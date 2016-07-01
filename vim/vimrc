@@ -148,6 +148,9 @@ inoremap jj <ESC>
 " if !exists(':Grma')
     command Grma :! git ls-files --deleted | sed 's/\(.*\)/"\1"/' | xargs git rm
 " endif
+" if !exits(':VimClear')
+    command VimClear :! find ./ -type f -name "\.*sw[klmnop]" -delete
+" endif
 autocmd BufNewFile,BufRead *.md set filetype=markdown
 autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 
