@@ -59,6 +59,7 @@
     * [usage](https://github.com/scrooloose/nerdcommenter#usage)
 * docker/docker
 * majutsushi/tagbar (Use **Ctrl + t** to open or close tagbar)
+* leafgarland/typescript-vim (type script style)
 
 # Screenshots
 ![Image of Screen1]

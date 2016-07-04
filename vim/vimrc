@@ -8,8 +8,7 @@ set modelines=0
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
-set expandtab
-
+set expandtab 
 " More Common Settings "
 set encoding=utf-8
 set scrolloff=3
@@ -134,6 +133,7 @@ Plugin 'scrooloose/nerdcommenter'
 Plugin 'docker/docker', {'rtp': '/contrib/syntax/vim/'}
 Plugin 'majutsushi/tagbar'
 Plugin 'peterhoeg/vim-qml'
+Plugin 'leafgarland/typescript-vim'
 call vundle#end()
 filetype plugin indent on
 
