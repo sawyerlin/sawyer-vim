@@ -134,6 +134,7 @@ Plugin 'docker/docker', {'rtp': '/contrib/syntax/vim/'}
 Plugin 'majutsushi/tagbar'
 Plugin 'peterhoeg/vim-qml'
 Plugin 'leafgarland/typescript-vim'
+Plugin 'othree/html5.vim'
 call vundle#end()
 filetype plugin indent on
 
@@ -151,7 +152,7 @@ inoremap jj <ESC>
 " if !exits(':VimClear')
     command VimClear :! find ./ -type f -name "\.*sw[klmnop]" -delete
 " endif
-autocmd BufNewFile,BufRead *.md set filetype=markdown
-autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
-
+autocmd BufNewFile,BufRead *.md set ft=markdown
+autocmd BufNewFile,BufRead *.tmpl set ft=phtml
+autocmd BufNewFile,BufRead *.tmpl set omnifunc=htmlcomplete#CompleteTags
 
